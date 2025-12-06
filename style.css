@@ -1,0 +1,75 @@
+:root {
+body { color: #f0f0f0;
+  background-image: url('assests/Background_Intro.png'); /* Onde 'caminho/para/sua/imagem.jpg' é o local do arquivo */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  background-size: cover; /* A imagem cobre toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Imagem fixa ao rolar a página */
+  /* Opcional: Cor de fallback caso a imagem não carregue */
+  background-color: #f0f0f0;
+   list-style-type: none;
+  
+
+   
+  
+}
+.imagem-arredondada {
+  border-radius: 50%; /* Faz a imagem ser um círculo perfeito */
+  width: 100px; /* Largura e altura devem ser iguais */
+  height: 100px;
+  object-fit: cover; /* Garante que a imagem preencha o círculo sem distorcer */
+}
+.img-leve-arredonda {
+  border-radius: 10px; /* Ajuste o valor para mais ou menos */
+  width: 150px; /* Exemplo de tamanho */
+  height: 150px;
+  object-fit: cover; /* Evita distorção */
+}
+.container-centralizado {
+  display: grid;
+  /* Centraliza vertical e horizontalmente */
+  place-items: center; 
+  /* Define uma altura mínima para o contêiner, necessário para que o alinhamento vertical funcione visualmente */
+  height: 100vh; 
+  /* Opcional: remove margens padrão do body para melhor visualização */
+  margin: 0; 
+    list-style-type: none; /* Remove os marcadores de lista padrão, se desejado */
+  padding: 0;
+  text-align: center; /* Centraliza o texto dentro dos itens da lista, se necessário */
+}
+ol li {
+  list-style: none; /* Remove os marcadores de lista padrão */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+  display: inline-block;
+}
+ul li {
+list-style: none; /* Remove os marcadores de lista padrão */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+  display: inline-block; ;
+
+}
+table {
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+    width: 80%; /* Largura da tabela */
+    margin: 20px auto; /* Centraliza a tabela */
+}
+
+td {
+    border: 1px solid #ddd; /* Borda cinza clara */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo da célula */
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a célula */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços extras abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem na célula */
+}
+
+th { /* Se você usar <th> para cabeçalho */
+    background-color: #f2f2f2;
+}
+}
