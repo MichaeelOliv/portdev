@@ -2,7 +2,7 @@
   
 
   font-family: "Bitcount Prop Single", system-ui;
-
+}
 
 body { color: #f0f0f0;
   background-image: url('assests/Background_Intro.png'); /* Onde 'caminho/para/sua/imagem.jpg' é o local do arquivo */
@@ -44,11 +44,7 @@ body { color: #f0f0f0;
   text-align: center; /* Centraliza o texto dentro dos itens da lista, se necessário */
 }
 
-.table:hover {
-  transform: scale(1.05); /* Aumenta o tamanho em 5% */
-  transition: transform 0.3s ease; /* Animação suave */
-  background-color: blue;
-}
+
 
 
 table {
@@ -77,5 +73,21 @@ th { /* Se você usar <th> para cabeçalho */
 #services-section {
   display: inline-block;
 }
+a {
+  text-decoration: none;
+  color: inherit
 }
+
+.a:hover {
+   transform: scale(1.05); /* Aumenta o tamanho em 5% */
+  transition: transform 0.3s ease; /* Animação suave */
+  background-color: blue;
+
+}
+
+
+
+
  @import url('fonts.googleapis.com');
+
+  
