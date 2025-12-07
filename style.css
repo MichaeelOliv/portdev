@@ -1,4 +1,9 @@
 :root {
+  
+
+  font-family: "Bitcount Prop Single", system-ui;
+
+
 body { color: #f0f0f0;
   background-image: url('assests/Background_Intro.png'); /* Onde 'caminho/para/sua/imagem.jpg' é o local do arquivo */
   background-repeat: no-repeat; /* Não repete a imagem */
@@ -8,6 +13,7 @@ body { color: #f0f0f0;
   /* Opcional: Cor de fallback caso a imagem não carregue */
   background-color: #f0f0f0;
    list-style-type: none;
+
   
 
    
@@ -37,27 +43,23 @@ body { color: #f0f0f0;
   padding: 0;
   text-align: center; /* Centraliza o texto dentro dos itens da lista, se necessário */
 }
-ol li {
-  list-style: none; /* Remove os marcadores de lista padrão */
-  padding: 0; /* Remove o padding padrão */
-  margin: 0; /* Remove a margem padrão */
-  display: inline-block;
-}
-ul li {
-list-style: none; /* Remove os marcadores de lista padrão */
-  padding: 0; /* Remove o padding padrão */
-  margin: 0; /* Remove a margem padrão */
-  display: inline-block; ;
 
+.table:hover {
+  transform: scale(1.05); /* Aumenta o tamanho em 5% */
+  transition: transform 0.3s ease; /* Animação suave */
+  background-color: blue;
 }
+
+
 table {
     border-collapse: collapse; /* Remove espaços entre as bordas */
     width: 80%; /* Largura da tabela */
     margin: 20px auto; /* Centraliza a tabela */
+    border: none;
 }
 
 td {
-    border: 1px solid #ddd; /* Borda cinza clara */
+    border: none; /* Borda cinza clara */
     padding: 10px; /* Espaçamento interno */
     text-align: center; /* Centraliza o conteúdo da célula */
 }
@@ -72,4 +74,8 @@ img {
 th { /* Se você usar <th> para cabeçalho */
     background-color: #f2f2f2;
 }
+#services-section {
+  display: inline-block;
 }
+}
+ @import url('fonts.googleapis.com');
