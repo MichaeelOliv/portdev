@@ -1,9 +1,7 @@
 🎨 Projeto 05 - CSS Nesting
 📖 Sobre o Projeto
+O projeto é sobre o portifólio desenvolvido com tecnologias em css e html, com links para os principais trabalhos. Utilizando uma linguagem clara e intuititiva. O projeto consiste em uma interface de menu responsivo com navegação desktop e mobile  
 
-Este é um projeto de estudo focado em CSS Nesting, uma funcionalidade moderna do CSS que permite aninhar seletores de forma mais intuitiva e organizada, similar ao que já conhecíamos em pré-processadores como SASS/SCSS.
-
-O projeto consiste em uma interface de menu responsivo com navegação desktop e mobile, demonstrando na prática o uso de CSS Nesting em um cenário real.
 
 
 
